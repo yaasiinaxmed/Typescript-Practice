@@ -12,4 +12,6 @@ let isAdult: boolean = true;
 
 let numbers: number[] = [1, 2, 3, 4]
 
-console.log(numbers.filter(num => console.log(num)))
+let person: [string, number] = ["John", 88]
+
+console.log(numbers.length)
