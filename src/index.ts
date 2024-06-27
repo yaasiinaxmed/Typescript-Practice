@@ -12,6 +12,14 @@ let isAdult: boolean = true;
 
 let numbers: number[] = [1, 2, 3, 4]
 
+console.log(numbers.length)
+
 let person: [string, number] = ["John", 88]
 
-console.log(numbers.length)
+enum Color {Red, Green, Blue}
+
+let myColor: Color = Color.Blue;
+
+enum Role {ADMIN, USER, MARKETER}
+
+let currentUser: Role = Role.ADMIN
