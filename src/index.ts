@@ -1,4 +1,4 @@
-// numbers
+// practice
 
 let age: number = 50;
 
@@ -23,3 +23,14 @@ let myColor: Color = Color.Blue;
 enum Role {ADMIN, USER, MARKETER}
 
 let currentUser: Role = Role.ADMIN
+
+let variable: any = "myVariable";
+
+variable = 2021
+variable = "String"
+
+function logMessage(message: string): void {
+    console.log(message)
+}
+
+logMessage("Hey")
