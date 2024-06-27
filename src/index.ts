@@ -42,3 +42,15 @@ function greet(name: string) : string {
 const add : (a: number, b: number) => number  = function(a, b) {
     return a + b
 }
+
+const subtract: (a: number, b:number) => number = (a, b) => {
+    return a - b
+}
+
+subtract(50, 10)
+
+function createGreeting(name: string, age?: number): string {
+    return `Hello I'm ${name} and I am ${age} years old`
+}
+
+createGreeting("Yasin", 17)
