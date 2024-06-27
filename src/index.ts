@@ -54,3 +54,11 @@ function createGreeting(name: string, age?: number): string {
 }
 
 createGreeting("Yasin", 17)
+
+type User = {name: string, age: number}
+
+const user: User = {name: "Yasin", age: 17 }
+const user2: User = {name: "Yasin2", age: 17 }
+const user3: User = {name: "Yasin3", age: 17 }
+
+console.log("user data:", user2)
