@@ -34,3 +34,11 @@ function logMessage(message: string): void {
 }
 
 logMessage("Hey")
+
+function greet(name: string) : string {
+    return `Hello ${name}`
+}
+
+const add : (a: number, b: number) => number  = function(a, b) {
+    return a + b
+}
